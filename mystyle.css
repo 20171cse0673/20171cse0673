@@ -1,5 +1,4 @@
 
-
 body
 {
 background-repeat:no-repeat;
@@ -9,8 +8,20 @@ h2
 color: maroon;
 margin-left: 50px;
 }
-p
+
+p.normal
 {
-color: blue;
+font-size:30px;
+color:green;
+font-style:italic;
+text-decoration:underline;
+text-transform:capitalize;
+text-shadow:4px 10px 10px blue;
+}
+
+img
+{
+
+border:4px solid blue;opacity:0.3;
 }
 

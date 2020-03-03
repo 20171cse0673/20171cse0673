@@ -50,6 +50,7 @@ div
 width:300px;
 margin:auto;
 border:1px solid red;
+padding:25px 50px 75px 100px;
 }
 
 p.three{
@@ -57,5 +58,73 @@ margin:25px 50px 75px 100px;
 border-style:solid;
 border-width:2px 10px 4px 20px;
 border-color:red blue green yellow;
-
+padding:50px 30px 50px 80px;
 }
+p.four{
+margin:2cm;
+padding:5px;
+border:2px dashed green;
+}
+li{
+display:block;
+}
+span.a{
+display:inline;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+}
+span.b{
+display:inline-block;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+}
+span.c{
+display:block;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+}
+p.link{
+margin:1cm;
+display:inline-block;
+text-decoration:underline;
+color:black;
+}
+p.linker{
+margin:1cm;
+display:inline-block;
+color:green;
+}
+p.lb{margin:1cm;
+display:inline-block;
+border:2px solid green;
+width:100px;
+padding:20px;
+}
+p.lb1{margin:1cm;
+display:inline-block;
+background-color:red;
+width:100px;
+padding:20px;
+}
+a:link{
+color:green;
+}
+a:visited{
+color:red;
+}
+a:hover{
+color:green;
+}
+a:active{
+color:yellow;
+}
+

@@ -1,11 +1,12 @@
 
 body
 {
+background-image:repeating-radial-gradient(red,powderblue,pink);
 background-repeat:no-repeat;
 }
 h2
 {
-color: maroon;
+color: maroon;0
 margin-left: 50px;
 }
 
@@ -127,4 +128,32 @@ color:green;
 a:active{
 color:yellow;
 }
+::selection{
+color:red;
+background:yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
